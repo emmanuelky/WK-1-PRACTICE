@@ -85,12 +85,15 @@ splitMe("Strive is excellent")
 
 const deleteOne = (str, boolean) => boolean === true ? str.substring(1) : str.substring(0, str.length - 1);
 
-deleteOne("strive", true)
+deleteOne("Emmanuel", true)
 
 /* Ex.5
    Write a function called "onlyLetters" which receives a string as a parameter and returns it removing all the digits.
    Ex.: onlyLetters("I have 4 dogs")  => returns "I have  dogs"
 */
+
+const onlyLetters = (str) => str.replace(/[0-9]/g, '');
+onlyLetters("welcome 2 my world")
 
 /* Ex.6
    Write a function called "isThisAnEmail" which receives a string as a parameter and returns true if the string is a valid email address.

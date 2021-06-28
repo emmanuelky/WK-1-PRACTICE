@@ -59,11 +59,15 @@ const dice = () => {
     return Math.floor(Math.random() * 7) + 1
 }
 
+dice()
 
 /* Ex.2
     Write a function called "whoIsBigger" which receives 2 numbers as parameters and returns the biggest one.
 */
 
+const whoIsBigger = (a, b) => a > b ? a : b
+
+console.log(whoIsBigger(40, 7))
 /* Ex.3
     Write a function called "splitMe" which receives a string as a parameter and returns an array with every word in that string.
     Ex. splitMe("I love coding") => returns ["I", "Love", "Coding"]

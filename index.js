@@ -99,6 +99,10 @@ onlyLetters("welcome 2 my world")
    Write a function called "isThisAnEmail" which receives a string as a parameter and returns true if the string is a valid email address.
 */
 
+const isThisAnEmail = (str) => str.includes("@") ? true : "Not a valid email address"
+
+isThisAnEmail("kyreall@gmail.com")
+
 /* Ex.7
    Write a function called "whatDayIsIt" that should return the current day of the week.
 */

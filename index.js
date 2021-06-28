@@ -107,6 +107,14 @@ isThisAnEmail("kyreall@gmail.com")
    Write a function called "whatDayIsIt" that should return the current day of the week.
 */
 
+const whatDayIsIt = () => {
+    let d = new Date()
+    let currentDay = d.getDay()
+
+    return currentDay
+}
+whatDayIsIt()
+
 /* Ex.8
     Write a function called "rollTheDices" which receives a number as a parameter.
     It should invoke the dice() function defined in Ex1 the specified amount of times,

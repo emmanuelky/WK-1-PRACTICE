@@ -23,14 +23,27 @@ let random = Math.floor(Math.random() * 21)
     Create a variable called "me" and assign to it an object containing the following information: name = your name, surname = your surname, age = your age.
 */
 
+let me = {
+    name: "Emmanuel",
+    surname: "Iyere",
+    age: 33,
+}
+
 /* Ex.E
     Programmatically remove the age property from the previously create object.
 */
+
+delete me.age
 
 /* Ex.F
    Programmatically add to the object me an array called "skills", containing the programming languages you know right now.
 */
 
+me.skills = ["JavaScript", "Python", "C#", "C++"]
+
+
 /* Ex.G
    Programmatically remove the last skill from the "skills" array inside the "me" object.
 */
+
+me.skills.pop()
